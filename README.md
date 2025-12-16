@@ -47,7 +47,7 @@ Minishell is built as a multi-stage execution pipeline:
 ### Memory Management
 
 - No memory leaks in project code (verified with Valgrind)
-- The readline library introduces known, unavoidable allocations; these are ignored using a Valgrind suppression file when checking for leaks
+- The readline library introduces known, unavoidable allocations. These are ignored using a Valgrind suppression file when checking for leaks
 
 ---
 
@@ -77,8 +77,8 @@ Minishell is built as a multi-stage execution pipeline:
 ### Collaboration
 
 This project was developed collaboratively by :
--Theo Fiette - tfiette
--Alyssia Galleze - agalleze
+- Theo Fiette / tfiette
+- Alyssia Galleze / agalleze
 
 ### Educational Context
 
