@@ -1,7 +1,7 @@
 # Minishell
 
-[![C](https://img.shields.io/badge/language-C-555?style=flat-square&logo=c)](https://www.gnu.org/software/gnu-c-manual/) 
-[![License](https://img.shields.io/badge/license-Educational-lightgrey?style=flat-square)]()
+[![C](https://img.shields.io/badge/language-C-555?style=flat-square&logo=c)](https://www.gnu.org/software/gnu-c-manual/)]
+[![License](https://img.shields.io/badge/license-Educational-lightgrey?style=flat-square)]
 A minimal Unix shell written in C, focusing on low-level system programming and Unix process management.
 
 This project reproduces a subset of Bash behavior, including command execution, pipelines, redirections, environment handling, and heredocs, with careful attention to memory management and signals.
@@ -76,8 +76,8 @@ Minishell is built as a multi-stage execution pipeline:
 ### Collaboration
 
 This project was developed collaboratively by :
-Theo Fiette - tfiette
-Alyssia Galleze - agalleze
+-Theo Fiette - tfiette
+-Alyssia Galleze - agalleze
 
 ### Educational Context
 
