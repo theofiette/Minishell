@@ -1,7 +1,7 @@
 # Minishell
 
 [![C](https://img.shields.io/badge/language-C-555?style=flat-square&logo=c)](https://www.gnu.org/software/gnu-c-manual/)
-[![License](https://img.shields.io/badge/license-Educational-lightgrey?style=flat-square)]
+![License](https://img.shields.io/badge/license-Educational-lightgrey?style=flat-square)
 
 A minimal Unix shell written in C, focusing on low-level system programming and Unix process management.
 
