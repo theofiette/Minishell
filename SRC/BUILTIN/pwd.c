@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pwd.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agalleze <agalleze@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tfiette <tfiette@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 12:16:31 by agalleze          #+#    #+#             */
-/*   Updated: 2025/10/28 16:17:33 by agalleze         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:47:25 by tfiette          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 void	ft_putstr_fd(const char *s, int fd)
 {
-	int	i;
-
-	i = 0;
 	write(fd, s, ft_strlen(s));
 }
 
