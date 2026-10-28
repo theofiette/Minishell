@@ -84,7 +84,7 @@ RM=rm -rf
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) -lreadline -o  $@ $^
+	$(CC) $(CFLAGS) -o  $@ $^ -lreadline
 
 $(D_BUILD)%.o:	%.c
 	@mkdir -p $(@D)
