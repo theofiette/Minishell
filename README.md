@@ -7,6 +7,10 @@ A minimal Unix shell written in C, focusing on low-level system programming and 
 
 This project reproduces a subset of Bash behavior, including command execution, pipelines, redirections, environment handling, and heredocs, with careful attention to memory management and signals.
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Minishell demo" width="800">
+</p>
+
 ---
 
 ## Technical Overview
@@ -54,7 +58,8 @@ Minishell is built as a multi-stage execution pipeline:
 ## Build & Run
 
 ### Requirements
-- Unix-like system
+- Linux
+- `gcc` or `clang`, `make`
 - `readline` library
 
 ### Install readline :
