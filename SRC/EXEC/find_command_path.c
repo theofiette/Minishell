@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   find_command_path.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agalleze <agalleze@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tfiette <tfiette@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 15:26:37 by agalleze          #+#    #+#             */
-/*   Updated: 2025/11/03 14:40:58 by agalleze         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:47:52 by tfiette          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,11 +63,9 @@ char	*browse_paths(t_exec *exec_list,
 {
 	int		i;
 	char	*cmd_path;
-	int		err_malloc;
 
 	i = 0;
 	cmd_path = NULL;
-	err_malloc = 0;
 	if (is_empty_at_start(exec_data))
 		cmd_path = browse_current_dir(exec_list, exec_data, first_errno);
 	if (cmd_path)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exit.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agalleze <agalleze@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tfiette <tfiette@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 14:53:12 by agalleze          #+#    #+#             */
-/*   Updated: 2025/11/03 14:40:46 by agalleze         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:47:39 by tfiette          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,8 @@ int	my_exit_builtin(
 	t_exec *exec_list, struct s_exec_data *exec_data, char **input)
 {
 	int	status;
-	int	i;
 
 	status = 0;
-	i = 0;
 	if (exit_on_error(exec_list, exec_data))
 		return (1);
 	if (exec_list->command->argv[1])

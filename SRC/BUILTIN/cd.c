@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cd.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: agalleze <agalleze@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tfiette <tfiette@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 10:46:57 by agalleze          #+#    #+#             */
-/*   Updated: 2025/10/28 11:41:42 by agalleze         ###   ########.fr       */
+/*   Updated: 2026/10/28 15:47:11 by tfiette          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ int	move_folders(char *target, t_env **env)
 				, perror("getcwd: cannot access parent directories"), 1);
 	}
 	if (update_variable(env, "PWD", working_dir) != 0)
-		return (free(working_dir), free(target), print_err(PROMPT
+		return (free(working_dir), print_err(PROMPT
 				, "cd: could not update PWD", NULL, NULL), 0);
 	return (free(working_dir), 1);
 }
